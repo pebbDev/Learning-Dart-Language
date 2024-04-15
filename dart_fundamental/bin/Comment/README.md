@@ -22,3 +22,24 @@ Contoh:
   multi-line comment
 */
 ```
+
+### 3. Documentation Comment atau Triple-Slash Comment
+
+Komentar dokumentasi dalam Dart biasanya disebut sebagai "triple-slash comment" karena dimulai dengan tiga garis miring (`///`). Komentar ini digunakan untuk menghasilkan dokumentasi otomatis dari kode yang ditulis.
+
+Contoh:
+```dart
+/// Ini adalah contoh documentation comment.
+/// Komentar ini digunakan untuk dokumentasi kode.
+/// 
+/// Misalnya, untuk menjelaskan fungsi atau kelas.
+void main() {
+  print('Hello, world!');
+}
+```
+
+Komentar dokumentasi ini sangat berguna ketika Anda ingin menjelaskan fungsi, kelas, variabel, atau konstanta. Dokumentasi yang baik dapat membantu programmer lain untuk memahami kode Anda dengan lebih cepat dan mudah.
+
+Penting untuk mencatat bahwa Dart memiliki alat seperti `dartdoc` yang dapat menghasilkan dokumentasi HTML dari komentar dokumentasi. Dengan menggunakan komentar dokumentasi dengan benar, Anda dapat menghasilkan dokumentasi kode yang informatif dan mudah dibaca.
+
+Penggunaan komentar yang tepat dalam kode sangat penting untuk memelihara kode yang bersih, mudah dibaca, dan mudah dimengerti oleh semua anggota tim pengembangan.
