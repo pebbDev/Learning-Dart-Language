@@ -28,7 +28,7 @@ void main() {
 
   // menghaspus orang yang namannya Anggi
   semuaKelas.remove("Anggi");
-  semuaKelas.removeAt(1);
+  semuaKelas.removeAt(1); //remove index 1
   print(semuaKelas);
 
   // print(semuaKelas.elementAt(3));
